@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0;
+    background-color: aliceblue;
+}
+.header{
+    width: 100%;
+
+    
+}
+.header .nav-bar a{
+    background-color:;
+    color: black;
+    font-size: 20px;
+    font-family: 'Raleway',sans-serif;
+    border-radius: 3px;
+}
+.header .nav-bar{
+    background-color: azure;
+/*    overflow: hidden;*/
+    width: 100%;
+/*    position: fixed;*/
+    
+    
+}
+.logo{
+    width: 220px;
+    height: 220px;
+    background-image: url(images/%E0%BA%84%E0%BA%A7%E0%BA%AA.jpg);
+    border-radius: 100px;
+}
+.mene{
+    overflow: hidden;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+li{
+    margin: 20px;
+    text-shadow: 3px 3px 3px gray;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    background-color:lightblue;
+    border-radius:20px;
+}
+li:hover{
+    border-radius: 50%;
+}
+.hire-me{
+    width: 100%;
+}
+.hire-me .title
+.menu li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    border: none;
+     list-style: none;
+}
+.menu ul{
+     list-style: none;
+}
+.hire-me1 .title1{
+    background-color:gainsboro;
+    text-align: center;
+    border-radius: 20px;
+    height: 1150px;
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+.hire-me1 .title1 img{
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+    text-shadow: 5px 10px 10px gray;
+}
+p{
+    font-size: 25px;
+}
+.hire-me2 .title2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    width: 100%;
+    height: 700px;
+}
+}
+.hire-me2 .title2 img{
+    border-radius: 10px;
+}
+.hire-me3 .title3{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.hire-me3 .title3 img{
+    border-radius: 10px;}
+.hire-me4 .title4{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.hire-me4 .title4 img{
+    border-radius: 10px;}
+.l{
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    margin: 30px;
+    margin-right: 50px;
+}
+.l p{
+    text-align: justify;
+}
+.r{
+    display: inline-block;
+    height: 50px;
+    width: 500px;
+    margin: 30px;
+    margin-right: 50px;
+}
+.r p{
+    text-align: justify;
+}
+.gallery{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color:gainsboro;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+       font-family: 'Open Sans Condensed', sans-serif;
+}
+button{
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    
+}
+button:hover a{
+    color: aqua;
+}
+.footer{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    background-color: gainsboro;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.footer h2{
+    font-size: 50px;
+}
+.left{
+    display: inline-block;
+    margin-top: 20px;
+}
+.left img{
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px pink;
+    margin-top: 10px;
+    margin-left: 30px;
+        
+    
+}
+.right{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.right a{
+    font-size: 50px;
+}
+
+.footer .left{
+    margin: auto;
+}
+.footer .right{
+    margin-right: 80px;
+}
+.footer a{
+    color: deeppink;
+}
+.face:hover a{
+    color: blue;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    background-color: lightcyan;
+}
+.whatapp{    
+    margin-bottom: 20px;
+
+}
+.whatapp:hover a{
+    color: green;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    background-color: lightcyan;}
+.face{
+    margin-bottom: 20px;
+}
+.wechat{
+margin-bottom: 20px;
+}
+.wechat:hover a{
+    color: green;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    background-color: lightcyan;}
+.gmail{
+    margin-bottom: 20px;
+}
+.gmail:hover a{
+    color: red;
+    border-radius: 30px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    background-color: lightcyan;}
+
+
+
+
